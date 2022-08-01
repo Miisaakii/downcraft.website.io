@@ -1,6 +1,17 @@
 
-
 .bodypanoramic {
+    font-size: 24;
+    animation: slide 60s linear infinite;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.35) ), url('images/image.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:repeat-x;
+    backdrop-filter: blur(10px);
+}
+
+.bodypanoramicdl {
     font-size: 24;
     animation: slide 60s linear infinite;
     margin: 0;
